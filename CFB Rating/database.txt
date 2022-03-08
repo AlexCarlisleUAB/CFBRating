@@ -1,0 +1,11 @@
+TABLE teams
+    INT rank
+    STRING name
+    DOUBLE rating
+    INT wins
+    INT losses
+    DOUBLE winPercent
+
+TABLE games
+    INT WinningTeamID
+    INT losingTeamID
